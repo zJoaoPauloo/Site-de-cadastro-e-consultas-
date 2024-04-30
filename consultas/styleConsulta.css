@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    text-align: center; /* Centraliza todo o conteúdo dentro do container */
+}
+header {
+    background: #000000;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+nav {
+    float: right;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Estilo para a imagem */
+img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Estilo para linhas ímpares */
+#tabelaCadastro p:nth-child(odd) {
+    background-color: white;
+}
+
+/* Estilo para linhas pares */
+#tabelaCadastro p:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/* Estilo para a borda */
+#tabelaCadastro p {
+    border-bottom: 1px dashed black;
+    padding: 10px 0; /* Adiciona algum espaço entre as linhas */
+}
